@@ -1,0 +1,7 @@
+com/sports/analytics/MainApp.class
+com/sports/analytics/model/Personne.class
+com/sports/analytics/model/Joueur.class
+com/sports/analytics/service/StatistiquesService.class
+com/sports/analytics/exception/SeuilFatigueDepasseException.class
+com/sports/analytics/Main.class
+com/sports/analytics/util/DataSimulator.class
