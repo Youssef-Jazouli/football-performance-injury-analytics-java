@@ -1,7 +1,8 @@
 /home/you-jazou/sports-analytics/src/main/java/com/sports/analytics/model/Joueur.java
-/home/you-jazou/sports-analytics/src/main/java/com/sports/analytics/Main.java
+/home/you-jazou/sports-analytics/src/main/java/com/sports/analytics/main/Main.java
 /home/you-jazou/sports-analytics/src/main/java/com/sports/analytics/service/StatistiquesService.java
 /home/you-jazou/sports-analytics/src/main/java/com/sports/analytics/util/DataSimulator.java
 /home/you-jazou/sports-analytics/src/main/java/com/sports/analytics/exception/SeuilFatigueDepasseException.java
-/home/you-jazou/sports-analytics/src/main/java/com/sports/analytics/MainApp.java
+/home/you-jazou/sports-analytics/src/main/java/com/sports/analytics/main/MainApp.java
+/home/you-jazou/sports-analytics/src/main/java/com/sports/analytics/main/Launcher.java
 /home/you-jazou/sports-analytics/src/main/java/com/sports/analytics/model/Personne.java

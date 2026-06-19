@@ -5,3 +5,4 @@ com/sports/analytics/service/StatistiquesService.class
 com/sports/analytics/exception/SeuilFatigueDepasseException.class
 com/sports/analytics/Main.class
 com/sports/analytics/util/DataSimulator.class
+com/sports/analytics/Launcher.class

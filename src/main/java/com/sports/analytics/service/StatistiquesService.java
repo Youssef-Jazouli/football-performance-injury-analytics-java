@@ -24,6 +24,8 @@ public class StatistiquesService {
      * @param cheminFichier Le chemin absolu ou relatif du fichier CSV
      */
     public void analyserFichierPerformances(String cheminFichier) {
+        tableJoueurs.clear(); 
+        
         try {
             Reader reader = new FileReader(cheminFichier, StandardCharsets.UTF_8);
             
@@ -42,7 +44,7 @@ public class StatistiquesService {
 
                 Joueur joueur = tableJoueurs.computeIfAbsent(id, k -> new Joueur(id, nom));
 
-                joueur.setDistanceCumulee(joueur.getDistanceCumulee() + distance);
+                joueur.setDistanceCumulee(distance);
                 joueur.setTotalMatchs(joueur.getTotalMatchs() + 1);
                 joueur.setScoreFatigueActuel(fatigue);
 
